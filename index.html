@@ -1,615 +1,156 @@
 <!doctype html>
-<html lang="zxx">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VivoCloud | Web, Mobile, Desktop & Custom Software Development</title>
+    <meta
+      name="description"
+      content="VivoCloud builds beautiful, reliable software across web, mobile, desktop, and custom platforms."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">VivoCloud</a>
+        <nav class="nav">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Vivo Cloud Inc.</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="icon" href="img/topLogoBlue.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kwes.io/js/kwes.js"></script>
-    <meta name="referrer" content="origin">
-
-</head>
-<style lang="scss">
-    .fix-header {
-        width: 60%
-    }
-
-    .client-slide img {
-        max-height: 90px;
-        max-width: 250px;
-        width: auto;
-        height: auto;
-        display: inline-block;
-    }
-
-    .client-slide {
-        min-height: 100px;
-        line-height: 100px;
-        vertical-align: middle;
-        text-align: center;
-    }
-
-
-    .rotate {
-        animation: rotation 8s infinite linear;
-    }
-
-
-    .companies-container > li:last-child {
-        margin-right: 20px;
-    }
-
-    .company-image {
-        width: 50px;
-        cursor: pointer;
-    }
-
-    .logo-container {
-        object-fit: contain;
-        margin-bottom: 5px;
-        width: 300px;
-    }
-
-    @media screen and (max-width: 768px) {
-        .fix-header {
-            width: 100%
-        }
-
-        .company-image {
-            width: 30px;
-        }
-
-        .logo-container {
-            object-fit: contain;
-            margin-bottom: 5px;
-            width: 250px;
-        }
-
-        .client-slide img {
-
-        }
-
-    }
-
-    @media screen and (min-width: 768px) {
-
-        .logo-container {
-            object-fit: contain;
-            margin-bottom: 5px;
-            width: 250px;
-        }
-    }
-
-
-    ::-webkit-scrollbar {
-        width: 0;
-        background: transparent;
-    }
-
-    .scrolling-wrapper-flexbox {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: hidden;
-    }
-
-
-    li {
-        cursor: pointer;
-    }
-
-    @keyframes rotation {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-    }
-</style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-
-<body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-<header class="main_menu home_menu" style="min-height: 40px;display: flex; align-items: center">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand">
-                        <img src="img/vivoresized.png"
-                             class="logo-container"
-                             alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-label="Toggle navigation">
-                        <span class="menu_icon"><i class="fas fa-bars"></i></span>
-                    </button>
-                    <div class="fix-header"></div>
-                    <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item" id="navHome">
-                                <a class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item" id="navFeatures">
-                                <a class="nav-link">Solutions</a>
-                            </li>
-                            <li class="nav-item" id="click">
-                                <a class="nav-link">Technologies</a>
-                            </li>
-                            <li class="nav-item" id="navCompanies">
-                                <a class="nav-link">Clients</a>
-                            </li>
-
-                            <li class="nav-item" id="navContact">
-                                <a class="nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Software development, end-to-end</p>
+            <h1>Beautiful software for web, mobile, desktop, and beyond.</h1>
+            <p class="lead">
+              We help startups and established teams design, build, and scale
+              modern products with clean architecture and exceptional user
+              experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Start a Project</a>
+              <a class="btn btn-secondary" href="#services">See Services</a>
             </div>
+          </div>
+          <aside class="hero-card">
+            <h2>What we build</h2>
+            <ul>
+              <li>Web apps and APIs</li>
+              <li>iOS and Android mobile apps</li>
+              <li>Cross-platform desktop tools</li>
+              <li>Custom business software</li>
+            </ul>
+          </aside>
         </div>
-    </div>
+      </section>
 
-</header>
-
-
-<section class="banner_part" id="Home">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-7">
-                <div class="banner_text">
-                    <div class="banner_text_iner">
-                        <h1>NEXT LEVEL
-                            DESIGN & TECHNOLOGY</h1>
-                        <p>You have the vision for a stunning digital experience. We’re
-                            the software design and engineering team that can bring it to life.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="banner_img d-none d-lg-block">
-                    <img src="img/banner_img.png" alt="">
-                </div>
-            </div>
+      <section id="services" class="section">
+        <div class="container">
+          <h2>Services</h2>
+          <p class="section-intro">
+            Need one specialist or a full delivery team? We adapt to your
+            goals, timeline, and stack.
+          </p>
+          <div class="cards">
+            <article class="card">
+              <h3>Web Development</h3>
+              <p>
+                Modern frontend and backend systems with scalable
+                infrastructure, strong performance, and maintainable code.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Mobile Development</h3>
+              <p>
+                Native and cross-platform mobile apps focused on usability,
+                speed, and reliable releases across app stores.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Desktop Applications</h3>
+              <p>
+                Powerful desktop software for operations, data-heavy workflows,
+                and internal tooling on macOS, Windows, and Linux.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Custom Software</h3>
+              <p>
+                From idea to launch: product strategy, UX/UI, engineering, and
+                long-term support tailored to your business.
+              </p>
+            </article>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
 
-<section class="feature_part padding_top" id="Featured">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6 ">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="single_feature">
-                            <div class="single_feature_part">
-                                <img src="img/icon/1.png" alt="">
-                                <h4>Web Applications</h4>
-                                <p>We craft our Single Page Apps (Rich Internet Apps) with utter love using RxJS, React,
-                                    Redux, VirtualDOM</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="single_feature">
-                            <div class="single_feature_part">
-                                <img src="img/icon/2.png" alt="">
-                                <h4>Web Services</h4>
-                                <p>Services that we build speak fluently in REST. Fear no more since every client app
-                                    would love to talk to them!</p>
-                            </div>
-                        </div>
-                        <div class="single_feature">
-                            <div class="single_feature_part">
-                                <img src="img/icon/3.png" alt="">
-                                <h4>Mobile Aplications</h4>
-                                <p>Our team connects conventional essential technologies and architecture with the
-                                    unique logic of the app. Combined with a polished design and UI/UX an app becomes
-                                    the one that reaches goals of our customers and wins the hearts of use.</p>
-                            </div>
-                        </div>
-
-                        <!-- <div class="single_feature">
-                            <div class="single_feature_part single_feature_part_2">
-                                <img src="img/icon/3.png" alt="">
-                                <h4>Mobile Aplications</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="single_feature">
-                            <div class="single_feature_part">
-                                <img src="img/icon/4.png" alt="">
-                                <h4>Refactoring</h4>
-                                <p>Legacy is good as long as it's constantly Refactored. We will squash those bugs and
-                                    untangle that old spaghetti you inherited.</p>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="feature_part_text">
-                    <h2>Our Solutions</h2>
-                    <p>We bring a diverse team of experienced mobile designers and developers to your project, aligning
-                        your business needs and goals with your users need for a friendly, intuitive, delightful
-                        experience. We’re your partner in digitally driven success.</p>
-                </div>
-            </div>
+      <section id="process" class="section section-muted">
+        <div class="container">
+          <h2>How we work</h2>
+          <div class="steps">
+            <article>
+              <p class="step-number">01</p>
+              <h3>Discover</h3>
+              <p>
+                We align on product goals, users, constraints, and technical
+                direction.
+              </p>
+            </article>
+            <article>
+              <p class="step-number">02</p>
+              <h3>Build</h3>
+              <p>
+                Rapid, iterative delivery with transparent communication and
+                measurable progress.
+              </p>
+            </article>
+            <article>
+              <p class="step-number">03</p>
+              <h3>Scale</h3>
+              <p>
+                Performance tuning, observability, and roadmap support as your
+                product grows.
+              </p>
+            </article>
+          </div>
         </div>
-    </div>
+      </section>
 
-    <img src="img/animate_icon/Shape-14.png" alt="" class="feature_icon_2">
-    <img src="img/animate_icon/shape-3.png" alt="" class="feature_icon_4">
-</section>
-
-<section class="about_us section_padding">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-md-6 col-lg-5">
-                <div class="about_us_text">
-                    <h2>Right people at the
-                        Right time.</h2>
-                    <p>We help our clients create, execute, and deliver amazing digital experiences.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="learning_img">
-                    <img src="img/about_img.png" alt="">
-                </div>
-            </div>
+      <section id="contact" class="section">
+        <div class="container contact">
+          <h2>Let’s build something great.</h2>
+          <p>
+            Tell us what you are building and where you need support. We’ll
+            help you choose the right path and start quickly.
+          </p>
+          <a class="btn btn-primary" href="mailto:hello@vivocloud.ca"
+            >hello@vivocloud.ca</a
+          >
         </div>
-    </div>
-    <img src="img/left_sharp.png" alt="" class="left_shape_1">
-    <img src="img/about_shape.png" alt="" class="about_shape_1">
-    <img src="img/animate_icon/Shape-16.png" alt="" class="feature_icon_1">
-</section>
+      </section>
+    </main>
 
-<section class="use_sasu" id="Technologies">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="section_tittle text-center">
-                    <h2>Technologies</h2>
-                    <p>Some of the latest technologies we enjoy using and mentoring.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_feature">
-                    <div class="single_feature_part">
-                        <img src="img/icon/xamarin.png" alt="">
-                        <h4>Xamarin</h4>
-                        <p>Cross-platform mobile apps for ios, android & windows with cost effectiveness and faster time
-                            to market rely on the Xamarin development platform.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_feature">
-                    <div class="single_feature_part">
-                        <img src="img/icon/react.png" alt="" class="rotate">
-                        <h4>React JS & Native</h4>
-                        <p>Our team of React developers create fast, seamless, engaging applications. It used to build
-                            an easy-to-use interface with high performance.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_feature">
-                    <div class="single_feature_part">
-                        <img src="img/icon/angular.png" alt="">
-                        <h4>Angular</h4>
-                        <p>Our Angular web development experts understand your business and development needs to employ
-                            the right solutions to cater the same.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_feature">
-                    <div class="single_feature_part">
-                        <img src="img/icon/vue.png" alt="">
-                        <h4>Vue</h4>
-                        <p>Vue.js is well suitable for outstaffing or outsourcing of existing projects since this
-                            framework is easily approachable and scalable. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <img src="img/animate_icon/Shape-14.png" alt="" class="feature_icon_1">
-</section>
-
-<section class="about_us right_time section_padding">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-md-6 col-lg-6">
-                <div class="learning_img">
-                    <img src="img/about_img_1.png" alt="">
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-5">
-                <div class="about_us_text">
-                    <h2>Because WE CAN !</h2>
-                    <p>Expertise in the characteristics and best practices unique to each native platform ensures that
-                        our custom apps exceed user expectations every time.</p>
-                    <a href="#contact" class="btn_1" id="navContactUs">Contact US</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <img src="img/about_shape.png" alt="" class="about_shape_1">
-    <img src="img/animate_icon/shape.png" alt="" class="feature_icon_4">
-</section>
-
-<section class="use_sasu" style="margin: 30px 0;  width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;" id="Companies">
-    <div class="row justify-content-center">
-        <div class="col-lg-8">
-            <div class="section_tittle text-center">
-                <h2>Clients</h2>
-                <p></p>
-            </div>
-        </div>
-    </div>
-    <div style="display: grid; grid-template-columns: 2.5fr 5fr 2.5fr;">
-        <div style="display: flex; justify-content: center; align-items: center">
-            <img src="img/next.png" style=" transform: rotate(180deg);" id="prevCompany" alt="" class="company-image">
-        </div>
-        <div class="scrolling-wrapper-flexbox" id="swf"
-        >
-            <div class="client-slide">
-                <img src="img/ibm.png" alt=""
-                     style="object-fit: contain;width: 130px;padding:2px 8px;margin: 30px 0;height: 40px">
-            </div>
-
-            <div class="client-slide">
-                <img src="img/trimac.png" alt=""
-                     style="object-fit: contain;width: 130px;padding:2px 8px;margin: 30px 0;height: 40px">
-            </div>
-            <div class="client-slide">
-                <img src="img/surgepng.png" alt=""
-                     style="object-fit: contain;background-color: black;width: 130px;padding:2px 8px;border-radius: 4px;margin: 30px 0;height: 40px"
-                >
-            </div>
-
-            <div class="client-slide">
-                <img src="img/TopDevz.png" alt=""
-                     style="object-fit: contain;width: 130px;padding:2px 8px;margin: 30px 0;height: 40px">
-            </div>
-
-            <div class="client-slide">
-                <img src="img/R&PLogoOpenGraph.png" alt=""
-                     style="object-fit: contain;width: 130px;padding:2px 8px;margin: 30px 0;height: 40px"></div>
-
-            <div class="client-slide">
-                <img src="img/getty_image.png" alt=""
-                     style="object-fit: contain;width: 130px;padding:2px 8px;border-radius: 4px;margin: 30px 0;height: 40px">
-            </div>
-
-
-        </div>
-        <div style="display: flex; justify-content: center; align-items: center">
-            <img src="img/next.png" class="company-image" id="nextCompany" alt="">
-        </div>
-    </div>
-</section>
-
-<div id="Contact" style="margin-top: 60px">
-    <div class="row justify-content-center">
-        <div class="col-lg-6">
-            <div class="section_tittle text-center">
-                <h2>Get in touch</h2>
-            </div>
-        </div>
-    </div>
-    <div class="container " style="box-shadow:0 3px 81px 0 rgba(216, 216, 216, 0.45);padding: 40px;border-radius: 5px">
-        <div class="row">
-            <div class="kwes-form">
-                <form class="form-contact contact_form" action="https://kwes.io/api/foreign/forms/OLNmBfzjnhdJUhk39UoJ"
-                      method="post"
-                      id="contactForm"
-                      novalidate="novalidate">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="form-group">
-
-                  <textarea class="form-control w-100" name="message" cols="30" rows="9"
-                            id="emailbody"
-                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
-                            placeholder='Enter Message'></textarea>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input class="form-control" name="name" id="name" type="text"
-                                       onfocus="this.placeholder = ''"
-                                       onblur="this.placeholder = 'Enter your name'" placeholder='Enter your name'>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input class="form-control" name="_replyto" id="email" type="email"
-                                       onfocus="this.placeholder = ''"
-                                       onblur="this.placeholder = 'Enter email address'"
-                                       placeholder='Enter email address'>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <input class="form-control" name="subject" id="subject" type="text"
-                                       onfocus="this.placeholder = ''"
-                                       onblur="this.placeholder = 'Enter Subject'" placeholder='Enter Subject'>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group mt-3">
-                        <button type="submit"
-                                id="submit" value="SEND"
-
-                                class="button button-contactForm btn_1 sendEmail">Send Message <i
-                                class="flaticon-right-arrow"></i></button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-lg-4">
-                <div class="media contact-info">
-                    <span class="contact-info__icon"><i class="ti-home"></i></span>
-                    <div class="media-body">
-                        <h3>Calgary, Alberta, Canada</h3>
-                    </div>
-                </div>
-                <div class="media contact-info">
-                    <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                    <div class="media-body">
-                        <h3>Mon to Fri 9am to 6pm</h3>
-                    </div>
-                </div>
-                <div class="media contact-info">
-                    <span class="contact-info__icon"><i class="ti-email"></i></span>
-                    <div class="media-body">
-                        <h3>valon@vivocloud.ca</h3>
-                        <p>Send us your text anytime!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="container">
-    <script src="js/jquery-1.12.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/masonry.pkgd.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <!-- <script src="js/contact.js"></script> -->
-    <script src="js/kwes.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/custom.js"></script>
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> VivoCloud. All rights reserved.</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
 
     <script>
-        let i = 0;
-
-
-        $(document).ready(function () {
-            $('.scrolling-wrapper-flexbox').slick({
-                arrows: false,
-                autoplay: true,
-                easing: 'ease-out',
-                speed: 800,
-                infinite: true,
-                slidesToShow: 3,
-                centerMode: false,
-                slidesToScroll: 1,
-                responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                }, {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }]
-            })
-        });
-
-
-        $(document).ready(function () {
-            $("#nextCompany").click(function () {
-                $('#swf').slick('slickNext')
-            });
-        });
-
-
-        $(document).ready(function () {
-            $("#prevCompany").click(function () {
-                $('#swf').slick('slickPrev')
-            });
-        });
-        $(document).ready(function () {
-            $("#navHome").click(function () {
-                $('html, body').animate({
-                    scrollTop: $("#Home").offset().top
-                }, 1700);
-            });
-        });
-        $(document).ready(function () {
-            $("#click").click(function () {
-                $('html, body').animate({
-                    scrollTop: $("#Technologies").offset().top - 130
-                }, 1700);
-            });
-        });
-
-        $(document).ready(function () {
-            $("#navCompanies").click(function () {
-                $('html, body').animate({
-                    scrollTop: $("#Companies").offset().top - 130
-                }, 1700);
-            });
-        });
-        $(document).ready(function () {
-            $("#navFeatures").click(function () {
-                $('html, body').animate({
-                    scrollTop: $("#Featured").offset().top - 130
-                }, 1700);
-            });
-        });
-        $(document).ready(function () {
-            $("#navContact").click(function () {
-                $('html, body').animate({
-                    scrollTop: $("#Contact").offset().top - 130
-                }, 1700);
-            });
-        });
-        $(document).ready(function () {
-            $("#navContactUs").click(function () {
-                $('html, body').animate({
-                    scrollTop: $("#Contact").offset().top - 130
-                }, 1700);
-            });
-        });
-
-
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-</div>
-</body>
-
+  </body>
 </html>
