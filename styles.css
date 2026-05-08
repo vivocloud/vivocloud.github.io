@@ -230,6 +230,60 @@ h1 {
   color: var(--muted);
 }
 
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.tech-item {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  flex: 0 0 auto;
+}
+
+.tech-name {
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.92rem;
+  line-height: 1.25;
+}
+
+.aws { background: linear-gradient(140deg, #f59e0b, #ef7d00); color: #1c1100; }
+.go { background: linear-gradient(140deg, #00a8e8, #0076b6); }
+.cs { background: linear-gradient(140deg, #8d58ff, #5b2db8); }
+.java { background: linear-gradient(140deg, #f97316, #dd3f0f); }
+.kotlin { background: linear-gradient(140deg, #a855f7, #ec4899); }
+.react { background: linear-gradient(140deg, #0ea5e9, #2563eb); }
+.angular { background: linear-gradient(140deg, #ef4444, #be123c); }
+.rn { background: linear-gradient(140deg, #38bdf8, #0f766e); }
+.compose { background: linear-gradient(140deg, #22c55e, #0f766e); }
+.grpc { background: linear-gradient(140deg, #6366f1, #4338ca); }
+.docker { background: linear-gradient(140deg, #3b82f6, #1d4ed8); }
+.k8s { background: linear-gradient(140deg, #60a5fa, #2563eb); }
+.micro { background: linear-gradient(140deg, #14b8a6, #0f766e); }
+.event { background: linear-gradient(140deg, #f43f5e, #9f1239); }
+.ai { background: linear-gradient(140deg, #8b5cf6, #4c1d95); }
+.more { background: linear-gradient(140deg, #64748b, #334155); }
+
 .contact {
   text-align: center;
   max-width: 760px;
@@ -262,6 +316,10 @@ h1 {
   .steps {
     grid-template-columns: 1fr;
   }
+
+  .tech-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 720px) {
@@ -278,6 +336,10 @@ h1 {
   }
 
   .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-grid {
     grid-template-columns: 1fr;
   }
 }
