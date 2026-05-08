@@ -1,0 +1,20 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VivoCloud LinkedIn Logo</title>
+  <desc id="desc">Light-background optimized VivoCloud icon with pulse cloud symbol.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="130" y1="130" x2="900" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8ECEFF"/>
+      <stop offset="1" stop-color="#5D87F8"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="270" y1="290" x2="760" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="96" y="96" width="832" height="832" rx="200" fill="url(#bgGrad)"/>
+  <rect x="96" y="96" width="832" height="832" rx="200" fill="url(#shine)"/>
+
+  <path d="M680 694H350C276 694 216 634 216 560C216 497 259 443 320 428C334 337 411 267 507 267C589 267 660 320 687 398C692 397 698 396 704 396C783 396 848 460 848 540C848 625 780 694 680 694Z" fill="#F7FBFF"/>
+  <path d="M303 545H407L454 461L516 608L579 510L621 545H739" stroke="#2E5FE6" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
